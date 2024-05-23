@@ -1,15 +1,10 @@
 
-import React, { Fragment, useState, useRef, useEffect } from "react";
-import AppLayout from "../components/layout/AppLayout";
-import { TextField, Button, Container, Typography, Box, Grid } from "@mui/material";
+import React, { Fragment, useRef, useState } from "react";
+import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
-import { useSendPostMutation, useGetPostsQuery } from "../../src/redux/api/api"
-import { useAsyncMutation } from "../../src/hooks/hook";
-import { useInfiniteScrollTop } from "6pp";
-import { grayColor, orange } from "../constants/color";
+import { useGetPostsQuery } from "../../src/redux/api/api";
+import AppLayout from "../components/layout/AppLayout";
 import Post from "../components/shared/Post";
-import { IconButton, Skeleton, Stack } from "@mui/material";
 const ShowPost = ({ chatId, user }) => {
     const navigate = useNavigate();
     const dispatch = useDispatch();
@@ -24,15 +19,6 @@ const ShowPost = ({ chatId, user }) => {
         content: "",
     });
 
-
-
-
-
-console.log(oldMessagesChunk?.data?.messages)
-
-    
-
-   
 
 
     return (
