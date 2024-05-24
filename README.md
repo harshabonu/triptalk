@@ -1,10 +1,7 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
+Check Out Here : https://triptalk-y7ks.vercel.app/
+Features:
+Real-time Chat: Implemented with socket.io for seamless communication between travelers and advisors.
+Photo and Moment Sharing: A post section where users can share pictures and travel moments.
+User Profiles: Profiles for both travelers and advisors to manage their interactions and payments.
+Review System: Allows travelers to review advisors, ensuring quality and trust.
 
